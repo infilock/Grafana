@@ -1,3 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: default
+  name: gitlab
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJodHRwczovL3JlZ2lzdHJ5LmdpdGxhYi5jb20iOnsidXNlcm5hbWUiOiJuYXNlcm1pcnphZWk4OSIsInBhc3N3b3JkIjoiMjMyMTM2ODkwIiwiZW1haWwiOiJuYXNlcm1pcnphZWk4OUBnbWFpbC5jb20iLCJhdXRoIjoiYm1GelpYSnRhWEo2WVdWcE9EazZNak15TVRNMk9Ea3cifX19
+---
 kind: Deployment
 apiVersion: apps/v1
 metadata:
