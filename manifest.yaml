@@ -34,13 +34,13 @@ spec:
               memory: 100Mi
           env:
             - name: API_KEY
-              value: "132f659f"
+              value: "enter api key"
             - name: API_SECRET
-              value: "IE7mXbDBe7WH6jNz"
+              value: "enter secret api"
             - name: FROM
-              value: "17052021346"
+              value: "17052021300"
             - name: TO
-              value: "13437776364"
+              value: "a number like 1343xxxxxxx"
 
 ---
 
